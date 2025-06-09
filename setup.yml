@@ -1,6 +1,5 @@
  - name: Basic Server Setup
    hosts: local
-   become: true
    tasks:
      - name: example task
        debug:
