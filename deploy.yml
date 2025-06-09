@@ -1,6 +1,6 @@
  - name: Deploy Maven Artifact
    hosts: localhost
-   become: no
+   become: yes
    tasks:
      - name: Create a Deployment file if it does not exist
        file:
